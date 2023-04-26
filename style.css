@@ -1,0 +1,76 @@
+#wrap {
+       width:70% ;
+       border: thin solid black;
+       margin: 0 auto; 
+
+}
+
+
+nav{
+       height: 40px; 
+       background-color: red;
+}
+
+
+nav li{
+     list-style: none;
+     float:left;
+     width: 18% ;
+     line-height: 10px ;
+     text-align: center;
+}
+
+
+nav li a {
+       text-decoration:none;
+       color: #ffffff;
+       display: block;
+}
+
+
+navi li a:hover{
+       color: blueviolet;
+       background-color: aqua;
+
+}
+
+
+section{
+       width:30;
+       float:left;
+}
+
+
+aside{
+       width:30%;
+       float:right;
+       background-image: url(images/sidebar_bg.png);
+       border-left: thin solid grey;
+       background-repeat: repeat-x;
+}
+
+
+
+footer{
+       clear:both;
+       height:128px;
+       background-image:url(images/footer_background.jpg);
+}
+
+
+section{
+       width:60%;
+       flaot:left;
+       padding:0px 20px 0px 20px;
+}
+
+
+hi{
+       line- height:24pt;
+}
+
+footer p{
+       width:40%
+       font-family:verdena;
+       font-size:17pt;
+       margin: 10px 0 0 20px;
